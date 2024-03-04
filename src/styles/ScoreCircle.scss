@@ -1,0 +1,21 @@
+.ScoreCircle {
+  display: inline-block;
+  position: relative;
+
+  .Bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: rotate(-90deg);
+  }
+
+  .InnerText {
+    position: absolute;
+    top: 50%;
+    left: 3%;
+    transform: translateY(-50%);
+    text-align: center;
+    width: 100%;
+    margin: 0px;
+  }
+}

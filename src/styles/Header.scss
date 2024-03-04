@@ -1,0 +1,24 @@
+.Header {
+  height: 6rem;
+  display: flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  background-color: #ffffff;
+
+  &_SubContainer {
+    width: 100%;
+    height: 100%;
+    border-bottom: 1px solid rgb(228, 227, 227);
+    box-sizing: border-box;
+    display: flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    align-items: center;
+    justify-content: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+  }
+}
